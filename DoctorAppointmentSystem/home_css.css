@@ -1,0 +1,349 @@
+.fullheight{
+    height: 102vh;
+    
+    
+    /* background-image: url("image/doctor_img.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .links{
+    display: flex;
+    justify-content: end;
+  }
+  .links a{
+    padding: 2px 10px;
+    color: rgb(4, 0, 0);
+    /* background:rgb(252, 252, 252); */
+  }
+  .scrollmenu {
+   
+white-space:nowrap;
+
+height: 51px;
+margin: -10px;
+}
+
+    img {  
+        max-width: 20%;  
+        height: auto;  
+        }
+
+
+.scrollmenu a {
+
+color: rgb(0, 0, 0);
+text-align:end;
+padding: 12px;
+font-size: 150%;
+text-decoration: none;
+
+
+}
+
+.scrollmenu .b:hover {
+    background-color: black;
+    color: #fff; 
+ }
+.ap_block{
+    
+    color: rgb(0, 2, 9);
+    padding: 50px;
+     margin: -10px;
+    width:450px;
+    font-size: x-large;
+    font-family: serif;
+}
+h1{
+   font-family: serif;
+  
+
+color: #05386b;
+
+  display: block;
+  font-size: 2em;
+  margin-block-start: -0.90em;
+  margin-block-end: 2.67em;
+  margin-inline-start: 455px;
+  margin-inline-end: -2px;
+  font-weight: bold;
+  /* width: fit-content;
+
+    /* width: fit-content; */
+}
+
+
+.sign-in {
+    padding: 0px;
+    width: 1000px;
+    font-size: large;
+     
+}
+.border{
+    height: 39px;
+    width: 210px;
+    border: -1px solid #65186f6d;
+    border-radius: 11px;
+    background-color: #05386b;
+    margin: 6px;
+
+}
+a.button{
+    text-align: center;
+    color: rgb(252, 251, 252);
+    padding: 12px;
+    margin: -3px;
+    /* background-color: rgb(230, 70, 99); */
+}
+.sign-in .button:hover {
+    background-color: rgb(4, 0, 5); 
+    color: rgb(244, 238, 238);
+   
+ }
+ .box{
+  height: 66px;
+  width: 125px;
+  padding: 65px;
+  margin: 20px;
+  border: 4px solid #352472;
+  text-decoration: dotted;
+  /* background-color: #05386b; */
+  border-radius: 35px;
+  height: 75px;
+    
+ }
+ p {
+  display: block;
+  margin-block-start: -3em;
+  margin-block-end: 1em;
+  margin-inline-start: -30px;
+  margin-inline-end: -67px;
+  font-size: large;
+  /* color: aliceblue; */
+}
+
+    /* width: 280px;
+    /* width: 280px; */
+
+/* ----------------------------------------------------------------- */
+.label-danger {
+    background-color: #e51c23;
+    color: aliceblue;
+    border: solid black;
+    border-radius: 7px;
+}
+
+
+
+input {
+    writing-mode: horizontal-tb !important;
+    /* font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ; */
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: -3em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    margin-inline-start: auto;
+
+}
+.input-group-addon{
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: -12px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 5px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  
+  /* custom styles */
+  /* body {
+    padding: 4em;
+    background: #e5e5e5;
+    font: 13px/1.4 Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  } */
+  label {
+    display: flex;
+    height: 32px;
+    margin: -7px;
+    width: 73px;
+    padding: -19px;
+    /* color: aliceblue; */
+        margin-left: -32px;
+
+  }
+  input {
+    border: 3px solid #c4c4c4;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 1px -2px;
+    box-shadow: inset 0 3px 6px rgb(0 0 0 / 10%);
+    width: 128px;
+    margin: 5px;
+    height: -4px;
+    margin-left: -35px;
+
+  }
+
+  .alert-danger {
+    background-color: #e51c23;
+}
+
+.alert {
+    border: none;
+    color: #fff;
+}
+
+.alert {
+  padding: 7px;
+  margin-bottom: -38px;
+  border: 0px solid transparent;
+  border-radius: 11px;
+  width: 160px;
+  height: 23px;
+}
+.admin{
+  padding: auto;
+  width: auto;
+  height: 1000px;
+}
+footer {
+  
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: -64px;
+  left: 0;
+  top: 550px;
+  background: #05386b;
+  color: #fff;
+  text-align: center;
+
+}
+.media-icons a{
+  font-size: 18px;
+    height: 13px;
+    width: 27px;
+    display: inline-table;
+    text-align: center;
+    line-height: 27px;
+    color: rgb(250, 250, 248);
+    border: 1px solid;
+    transition: all 0.3s ease;
+    margin: 1px;
+}
+.media-icons a:hover{
+  border-color: #6b1704;
+  background-color:rgb(247, 247, 244) ; 
+  color :#05386b;
+}
+.bottom{
+  text-align: center;
+  color: aliceblue;
+  margin: 0px;
+  background-color: #05386b;
+}
+.admin{
+  text-align: end;
+  height: 10px;
+  color: #fff;
+  /* margin: 5px; */
+}
+.admin a{
+  margin: 30px;
+  color: aliceblue;
+}
+
+  .table-hover {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+        }
+
+        
+        /* .overview-boxes .box {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: calc(100% / 4 - 15px);
+          background: #fff;
+          padding: 20px 16px;
+          border-radius: 18px;
+          width: fit-content;
+          box-shadow: 0 7px 12px #31708f;
+          margin-inline-start: auto;
+          height: fit-content;
+      }
+
+      .home-content .overview-boxes {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 155px 3px;
+        margin-bottom: 29px;
+        width: fit-content;
+       
+
+
+    } */
